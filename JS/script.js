@@ -14,11 +14,7 @@ while ( counter < listaSpesa.length) {
   counter++
   console.log(item);
 
-  if (counter === listaSpesa.length) 
-  break;
-    
-
-  outputEl.innerHTML = item
+  outputEl.innerHTML += item + '<br>';
 }
 
 
